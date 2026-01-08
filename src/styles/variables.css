@@ -1,0 +1,14 @@
+:root {
+  --color-white: #ffffff;
+  --color-dark: #000000;
+
+  --color-gray-1: #faf6f5;
+  --color-gray-2: #e1dddc;
+  --color-gray-3: #c8c4c4;
+  --color-gray-4: #afacab;
+  --color-gray-5: #969393;
+
+  --color-accent: #ee3145;
+
+  --font-family: "Nunito", sans-serif;
+}
