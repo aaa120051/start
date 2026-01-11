@@ -9,17 +9,19 @@ const Header = () => {
     <div className="px-4 pt-4 min-[1100px]:px-0">
       <div className="flex justify-between">
         <a href="/">
-          <div className="max-w-[317px]  w-full  flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
+          <div className="flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
             <img
               src="./images/logo/logo.png"
               alt="logo"
-              className="pe-[72px] min-[1100px]:pe-6"
+              className="min-[1100px]:pe-6 max-[500px]:w-[161px]"
             />
           </div>
         </a>
         <div className="hidden min-[1100px]:flex max-w-[962px] w-full  flex-col justify-between pl-6 h-[84px] min-[1100px]:mt-2">
           <div className="flex justify-between">
-            <Currencies />
+            <div>
+              <Currencies />
+            </div>
             <Feedback />
           </div>
 

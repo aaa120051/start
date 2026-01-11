@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-6 w-[411px] lg:pt-0 flex gap-4 lg:flex-col flex-wrap order-2 lg:order-3">
+        <div className="pt-6 w-[350px] lg:pt-0 flex gap-4 lg:flex-col flex-wrap order-2 lg:order-3">
           <div className="flex gap-1 text-[clamp(0.9375rem,0.8598rem+0.3315vw,1.125rem)] ">
             <p>USD</p>
             <p className="text-black">88,53</p>

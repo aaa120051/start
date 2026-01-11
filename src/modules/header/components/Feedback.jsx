@@ -1,18 +1,18 @@
 const Feedback = () => {
   return (
     <div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 max-[1100px]:flex-col max-[1100px]:gap-6">
         <a
           href="tel:84957855535"
-          className="text-(--color-accent) text-[14px] font-normal h-[21px]"
+          className="text-(--color-accent) text-[14px] font-normal h-[21px] max-[1100px]:text-[18px]"
         >
           8 (495) 785-55-35
         </a>
         <div className="flex flex-col">
-          <a href="tel:88002005535" className="text-(--color-accent) text-[14px] font-normal">
+          <a href="tel:88002005535" className="text-(--color-accent) text-[14px] font-normal max-[1100px]:text-[18px]">
             8 (800) 200-55-35
           </a>
-          <p className="text-[10px] font-normal">бесплатно из регионов</p>
+          <p className="text-[10px] font-normal text-(--color-gray-5) max-[1100px]:text-[12px]">бесплатно из регионов</p>
         </div>
         <div className="flex gap-2 ">
           <a href="#">
