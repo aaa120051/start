@@ -80,16 +80,13 @@ const Footer = () => {
             <p className="text-black">0,17</p>
           </div>
           <div className="flex gap-4 lg:pt-2">
+            <img src="/src/assets/footer/mir.svg" alt="банковская карта mir " />
             <img
-              src="/images/footer/mir.svg"
-              alt="банковская карта mir "
-            />
-            <img
-              src="/images/footer/visa.svg"
+              src="/src/assets/footer/visa.svg"
               alt="банковская карта visa"
             />
             <img
-              src="/images/footer/master card.svg"
+              src="/src/assets/footer/master card.svg"
               alt="банковская карта master card"
             />
           </div>
@@ -98,25 +95,25 @@ const Footer = () => {
 
       <div className="pt-6 pb-10 flex gap-16 overflow-x-auto scrollbar-hide border-b border-(--color-gray-5) xl:pt-10 ">
         <img
-          src="/images/partners/onlineexp.png"
+          src="/src/assets/partners/onlineexp.png"
           alt="onlineexp"
           width={119}
           height={50}
         />
         <img
-          src="/images/partners/assistour.png"
+          src="/src/assets/partners/assistour.png"
           alt="assistour"
           width={145}
           height={50}
         />
         <img
-          src="/images/partners/paykeeper.png"
+          src="/src/assets/partners/paykeeper.png"
           alt="paykeeper"
           width={101}
           height={50}
         />
         <img
-          src="/images/partners/sletat.png"
+          src="/src/assets/partners/sletat.png"
           alt="sletat"
           width={157}
           height={51}

@@ -11,7 +11,7 @@ const Advantages = () => {
           </p>
           <p className="ps-4 xl:ps-12">в туризме</p>
           <img
-            src="/images/advantages/inTourism.png"
+            src="/src/assets/advantages/inTourism.png"
             alt="туристический чемодан"
             width={272}
             height={295}
@@ -28,7 +28,7 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/images/advantages/clients.png"
+              src="/src/assets/advantages/clients.png"
               alt="Счастливые клиенты"
               width={155}
               height={170}
@@ -44,7 +44,7 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/images/advantages/travelAgencies.png"
+              src="/src/assets/advantages/travelAgencies.png"
               alt=""
               width={201}
               height={143}
@@ -60,7 +60,7 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/images/advantages/directions.png"
+              src="/src/assets/advantages/directions.png"
               alt=""
               width={133}
               height={89}

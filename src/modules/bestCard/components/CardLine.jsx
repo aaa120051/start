@@ -4,7 +4,7 @@ const CardLine = () => {
   const cards = [
     {
       id: 1,
-      img: "/images/bestCard/Треугольник.png",
+      img: "/src/assets/bestCard/Треугольник.png",
       city: "Индия",
       name: (
         <>
@@ -19,7 +19,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "/images/bestCard/Rixos.png",
+      img: "/src/assets/bestCard/Rixos.png",
       city: "Россия",
       name: (
         <>
@@ -27,26 +27,26 @@ const CardLine = () => {
         </>
       ),
       additionally: (
-          <div className="flex gap-2">
-            <p>Отель</p>
-            <div className="flex gap-1">
-              {[1, 2, 3, 4, 5].map((key) => (
-                <img
-                  key={key}
-                  src="\icons\cards\star.svg"
-                  alt="star"
-                  className="h-[13px]"
-                />
-              ))}
-            </div>
+        <div className="flex gap-2">
+          <p>Отель</p>
+          <div className="flex gap-1">
+            {[1, 2, 3, 4, 5].map((key) => (
+              <img
+                key={key}
+                src="\icons\cards\star.svg"
+                alt="star"
+                className="h-[13px]"
+              />
+            ))}
           </div>
+        </div>
       ),
       price: "459 989 ₽",
       forPrice: " / за номер",
     },
     {
       id: 3,
-      img: "/images/bestCard/Брайтон.png",
+      img: "/src/assets/bestCard/Брайтон.png",
       city: "Великобритания",
       name: (
         <>
@@ -59,7 +59,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "/images/bestCard/Калининград.png",
+      img: "/src/assets/bestCard/Калининград.png",
       city: "Каллинингад",
       name: (
         <>
@@ -72,7 +72,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "/images/bestCard/Вьетнам.png",
+      img: "/src/assets/bestCard/Вьетнам.png",
       city: "Вьетнам",
       name: "Большой Индокитайский Вояж: Вьетнам + Лаос + Ка...",
       additionally: "Экскурсионный тур",

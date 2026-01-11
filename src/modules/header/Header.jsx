@@ -11,7 +11,7 @@ const Header = () => {
         <a href="/">
           <div className="flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
             <img
-              src="./images/logo/logo.png"
+              src="/src/assets/logo/logo.png"
               alt="logo"
               className="min-[1100px]:pe-6 max-[500px]:w-[161px]"
             />

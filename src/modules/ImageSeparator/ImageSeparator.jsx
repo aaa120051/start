@@ -4,14 +4,14 @@ const ImageSeparator = () => {
       <picture>
         <source
           media="(max-width: 640px)"
-          srcSet="\images\ImgSeparator\ImgSeparatorMobile.png"
+          srcSet="/src/assets/ImgSeparator/ImgSeparatorMobile.png"
           alt="ImgSeparator"
           height={176}
           width={608}
           className="w-full h-44 rounded-2xl"
         />
         <img
-          src="\images\ImgSeparator\ImgSeparatorDesktop.png"
+          src="/src/assets/ImgSeparator/ImgSeparatorDesktop.png"
           alt="ImgSeparator"
           height={176}
           width={1280}

@@ -4,7 +4,7 @@ const CardLine = () => {
   const courses = [
     {
       id: 1,
-      img: "\\images\\education\\Брайтон (1).png",
+      img: "\\src\\assets\\education\\Брайтон (1).png",
       city: "Великобритания",
       name: "Брайтон (Business Courses)",
       language: "Английский",
@@ -15,7 +15,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "\\images\\education\\English in Cyprus Limassol.png",
+      img: "\\src\\assets\\education\\English in Cyprus Limassol.png",
       city: "Кипр",
       name: "English in Cyprus Limassol",
       language: "Английский",
@@ -26,7 +26,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "\\images\\education\\Discovery Summer Коллингем.png",
+      img: "\\src\\assets\\education\\Discovery Summer Коллингем.png",
       city: "Великобритания",
       name: "Discovery Summer Коллингем",
       language: "Английский",
@@ -37,7 +37,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "\\images\\education\\Sprachcaffe Пекин.png",
+      img: "\\src\\assets\\education\\Sprachcaffe Пекин.png",
       city: "Китай",
       name: "Sprachcaffe Пекин",
       language: "Английский",
@@ -48,7 +48,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "\\images\\education\\Брайтон (2).png",
+      img: "\\src\\assets\\education\\Брайтон (2).png",
       city: "Великобритания",
       name: "Брайтон (Business Courses)",
       language: "Английский",

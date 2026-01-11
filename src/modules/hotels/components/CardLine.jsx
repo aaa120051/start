@@ -4,7 +4,7 @@ const CardLine = () => {
   const hotels = [
     {
       id: 1,
-      img: "\\images\\hotels\\Rixos Krasnaya Polyana Sochi.png",
+      img: "\\src\\assets\\hotels\\Rixos Krasnaya Polyana Sochi.png",
       city: "Красная Поляна",
       name: "Rixos Krasnaya Polyana Sochi",
       start: "17 января",
@@ -14,7 +14,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "\\images\\hotels\\Mayrveda Kislovodsk (1).png",
+      img: "\\src\\assets\\hotels\\Mayrveda Kislovodsk (1).png",
       city: "Кисловодск",
       name: "Mayrveda Kislovodsk",
       start: "17 января",
@@ -24,7 +24,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "\\images\\hotels\\Сочи Парк Отель.png",
+      img: "\\src\\assets\\hotels\\Сочи Парк Отель.png",
       city: "Сочи",
       name: "Сочи Парк Отель",
       start: "17 января",
@@ -34,7 +34,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "\\images\\hotels\\Mayrveda Kislovodsk (2).png",
+      img: "\\src\\assets\\hotels\\Mayrveda Kislovodsk (2).png",
       city: "Сочи",
       name: "Бархатные Сезоны ",
       start: "17 января",
@@ -44,7 +44,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "\\images\\hotels\\Бархатные Сезоны.png",
+      img: "\\src\\assets\\hotels\\Бархатные Сезоны.png",
       city: "Кисловодск",
       name: "Mayrveda Kislovodsk",
       start: "17 января",
