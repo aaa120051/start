@@ -1,3 +1,34 @@
+import Azerbaijan from "@icons/header/flags/Азербайджан.svg";
+import Armenia from "@icons/header/flags/Армения.svg";
+import Bahrain from "@icons/header/flags/Бахрейн.svg";
+import Belarus from "@icons/header/flags/Беларусь.svg";
+import UnitedKingdom from "@icons/header/flags/Великобритания.svg";
+import Vietnam from "@icons/header/flags/Вьетнам.svg";
+import India from "@icons/header/flags/Индия.svg";
+import Indonesia from "@icons/header/flags/Индонезия.svg";
+import Spain from "@icons/header/flags/Испания.svg";
+import Italy from "@icons/header/flags/Италия.svg";
+import Qatar from "@icons/header/flags/Катар.svg";
+import China from "@icons/header/flags/Китай.svg";
+import Cuba from "@icons/header/flags/Куба.svg";
+import Mauritius from "@icons/header/flags/Маврикий.svg";
+import Malaysia from "@icons/header/flags/Малайзия.svg";
+import Maldives from "@icons/header/flags/Мальдивы.svg";
+import UnitedArabEmirates from "@icons/header/flags/ОАЭ.svg";
+import SaudiArabia from "@icons/header/flags/Саудовская Аравия.svg";
+import Seychelles from "@icons/header/flags/Сейшелы.svg";
+import Singapore from "@icons/header/flags/Сингапур.svg";
+import Thailand from "@icons/header/flags/Таиланд.svg";
+import Turkiye from "@icons/header/flags/Турция.svg";
+import Uzbekistan from "@icons/header/flags/Узбекистан.svg";
+import Philippines from "@icons/header/flags/Филиппины.svg";
+import France from "@icons/header/flags/Франция.svg";
+import Switzerland from "@icons/header/flags/Швейцария.svg";
+import SriLanka from "@icons/header/flags/Шри-Ланка.svg";
+import SouthKorea from "@icons/header/flags/Южная Корея.svg";
+import Japan from "@icons/header/flags/Япония.svg";
+import more from "@icons/header/more.svg" 
+
 import { useState, useEffect, useRef } from 'react';
 
 const NavBar = () => {
@@ -37,8 +68,8 @@ const NavBar = () => {
               Страны
             </a>
             <img 
-              src="/icons/header/more.svg" 
-              alt="" 
+              src={more}
+              alt="more" 
               width={14}
               className={`visible min-[1100px]:invisible ${openDropdown === "Страны" ? "rotate-180" : ""}`}
             />
@@ -46,35 +77,35 @@ const NavBar = () => {
 
           {openDropdown === "Страны" && (
             <ul className="min-[1100px]:absolute z-10 left-[0%] right-[0%] min-[1100px]:top-[115px] flex flex-wrap min-[1100px]:gap-[46px] gap-x-4 gap-y-6 p-4 min-[1100px]:p-8 bg-white *:w-[147px] min-[1100px]:*:w-56  rounded-2xl min-[1100px]:shadow-[0_6px_12px_0_rgba(0,0,0,0.04),0_4px_24px_6px_rgba(0,0,0,0.05)] max-[1100px]:bg-(--color-gray-1) [&_a]:flex [&_a]:items-center [&_a]:gap-3 max-[1100px]:[&_img]:h-6 min-[1440px]:w-[1368px] min-[1400px]:m-auto max-[1100px]:text-[14px] max-[1100px]:mt-4">
-              <li><a href="#"><img src="/icons/header/flags/Азербайджан.svg" alt="Азербайджан" /> Азербайджан</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Армения.svg" alt="Армения" /> Армения</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Бахрейн.svg" alt="Бахрейн" /> Бахрейн</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Беларусь.svg" alt="Беларусь" /> Беларусь</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Великобритания.svg" alt="Великобритания" /> Великобритания</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Вьетнам.svg" alt="Вьетнам" /> Вьетнам</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Индия.svg" alt="Индия" /> Индия</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Индонезия.svg" alt="Индонезия" /> Индонезия</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Испания.svg" alt="Испания" /> Испания</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Италия.svg" alt="Италия" /> Италия</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Катар.svg" alt="Катар" /> Катар</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Китай.svg" alt="Китай" /> Китай</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Куба.svg" alt="Куба" /> Куба</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Маврикий.svg" alt="Маврикий" /> Маврикий</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Малайзия.svg" alt="Малайзия" /> Малайзия</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Мальдивы.svg" alt="Мальдивы" /> Мальдивы</a></li>
-              <li><a href="#"><img src="/icons/header/flags/ОАЭ.svg" alt="ОАЭ" /> ОАЭ</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Саудовская Аравия.svg" alt="Саудовская Аравия" /> Саудовская Аравия</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Сейшелы.svg" alt="Сейшелы" /> Сейшелы</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Сингапур.svg" alt="Сингапур" /> Сингапур</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Таиланд.svg" alt="Таиланд" /> Таиланд</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Турция.svg" alt="Турция" /> Турция</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Узбекистан.svg" alt="Узбекистан" /> Узбекистан</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Филиппины.svg" alt="Филиппины" /> Филиппины</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Франция.svg" alt="Франция" /> Франция</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Швейцария.svg" alt="Швейцария" /> Швейцария</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Шри-Ланка.svg" alt="Шри-Ланка" /> Шри-Ланка</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Южная Корея.svg" alt="Южная Корея" /> Южная Корея</a></li>
-              <li><a href="#"><img src="/icons/header/flags/Япония.svg" alt="Япония" /> Япония</a></li>
+              <li><a href="#"><img src={Azerbaijan} alt="Azerbaijan" /> Азербайджан</a></li>
+              <li><a href="#"><img src={Armenia} alt="Armenia" /> Армения</a></li>
+              <li><a href="#"><img src={Bahrain} alt="Bahrain" /> Бахрейн</a></li>
+              <li><a href="#"><img src={Belarus} alt="Belarus" /> Беларусь</a></li>
+              <li><a href="#"><img src={UnitedKingdom} alt="United Kingdom" /> Великобритания</a></li>
+              <li><a href="#"><img src={Vietnam} alt="Vietnam" /> Вьетнам</a></li>
+              <li><a href="#"><img src={India} alt="India" /> Индия</a></li>
+              <li><a href="#"><img src={Indonesia} alt="Indonesia" /> Индонезия</a></li>
+              <li><a href="#"><img src={Spain} alt="Spain" /> Испания</a></li>
+              <li><a href="#"><img src={Italy} alt="Italy" /> Италия</a></li>
+              <li><a href="#"><img src={Qatar} alt="Qatar" /> Катар</a></li>
+              <li><a href="#"><img src={China} alt="China" /> Китай</a></li>
+              <li><a href="#"><img src={Cuba} alt="Cuba" /> Куба</a></li>
+              <li><a href="#"><img src={Mauritius} alt="Mauritius" /> Маврикий</a></li>
+              <li><a href="#"><img src={Malaysia} alt="Malaysia" /> Малайзия</a></li>
+              <li><a href="#"><img src={Maldives} alt="Maldives" /> Мальдивы</a></li>
+              <li><a href="#"><img src={UnitedArabEmirates} alt="United Arab Emirates" /> ОАЭ</a></li>
+              <li><a href="#"><img src={SaudiArabia} alt="Saudi Arabia" /> Саудовская Аравия</a></li>
+              <li><a href="#"><img src={Seychelles} alt="Seychelles" /> Сейшелы</a></li>
+              <li><a href="#"><img src={Singapore} alt="Singapore" /> Сингапур</a></li>
+              <li><a href="#"><img src={Thailand} alt="Thailand" /> Таиланд</a></li>
+              <li><a href="#"><img src={Turkiye} alt="Turkiye" /> Турция</a></li>
+              <li><a href="#"><img src={Uzbekistan} alt="Uzbekistan" /> Узбекистан</a></li>
+              <li><a href="#"><img src={Philippines} alt="Philippines" /> Филиппины</a></li>
+              <li><a href="#"><img src={France} alt="France" /> Франция</a></li>
+              <li><a href="#"><img src={Switzerland} alt="Switzerland" /> Швейцария</a></li>
+              <li><a href="#"><img src={SriLanka} alt="Sri Lanka" /> Шри-Ланка</a></li>
+              <li><a href="#"><img src={SouthKorea} alt="South Korea" /> Южная Корея</a></li>
+              <li><a href="#"><img src={Japan} alt="Japan" /> Япония</a></li>
             </ul>
           )}
         </li>
@@ -93,8 +124,8 @@ const NavBar = () => {
               Турагенствам
             </a>
             <img 
-              src="/icons/header/more.svg" 
-              alt="" 
+              src={more}
+              alt="more" 
               width={14}
               className={`visible min-[1100px]:invisible ${openDropdown === "Турагенствам" ? "rotate-180" : ""}`}
             />
@@ -148,8 +179,8 @@ const NavBar = () => {
               Туристам
             </a>
             <img 
-              src="/icons/header/more.svg" 
-              alt="" 
+              src={more}
+              alt="more" 
               width={14}
               className={`visible min-[1100px]:invisible ${openDropdown === "Туристам" ? "rotate-180" : ""}`}
             />
@@ -196,8 +227,8 @@ const NavBar = () => {
               О компании
             </a>
             <img 
-              src="/icons/header/more.svg" 
-              alt="" 
+              src={more}
+              alt="more" 
               width={14}
               className={`visible min-[1100px]:invisible ${openDropdown === "О компании" ? "rotate-180" : ""}`}
             />

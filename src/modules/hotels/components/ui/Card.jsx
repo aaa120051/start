@@ -1,3 +1,5 @@
+import star from "@icons/cards/star.svg";
+
 const Card = ({ img, city, name, start, food, price, rating = "5" }) => {
   return (
     <a href="#">
@@ -17,7 +19,7 @@ const Card = ({ img, city, name, start, food, price, rating = "5" }) => {
           {Array.from({ length: rating }).map((_, index) => (
             <img
               key={index}
-              src="\icons\cards\star.svg"
+              src= {star}
               alt="star"
               className="h-[13px]"
             />

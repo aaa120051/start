@@ -1,12 +1,14 @@
 import Carousel from "./compoments/Carousel";
 
+import imgMalaysia from "@images/carousel/Малайзия.jpg";
+
 const CarouselMain = () => {
   const slides = [
-    "\\src\\assets\\carousel\\Малайзия.jpg",
-    "\\src\\assets\\carousel\\Малайзия.jpg",
-    "\\src\\assets\\carousel\\Малайзия.jpg",
-    "\\src\\assets\\carousel\\Малайзия.jpg",
-    "\\src\\assets\\carousel\\Малайзия.jpg",
+    imgMalaysia,
+    imgMalaysia,
+    imgMalaysia,
+    imgMalaysia,
+    imgMalaysia,
   ];
 
   return (

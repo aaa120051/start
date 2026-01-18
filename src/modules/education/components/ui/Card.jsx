@@ -1,3 +1,5 @@
+import ellipse from "@icons/cards/ellipse.svg";
+
 const Card = ({ img, city, name, language, start, price, group, institution }) => {
   return (
     <a href="#">
@@ -15,7 +17,7 @@ const Card = ({ img, city, name, language, start, price, group, institution }) =
         <h3 className="text-black leading-7">{name}</h3>
         <div className="flex gap-1">
         <span className="font-normal text-[14px]">{group}</span>
-        <img src="\icons\cards\ellipse.svg" alt="text separator" />
+        <img src={ellipse} alt="text separator" />
         <span className="font-normal text-[14px]">{institution}</span>
         </div>
         <div className="flex pt-2 text-[12px] font-normal">

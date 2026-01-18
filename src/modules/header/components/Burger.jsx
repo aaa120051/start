@@ -4,6 +4,7 @@ import Currencies from "./Currencies";
 import NavBar from "./NavBar";
 import Feedback from "./Feedback";
 
+import logo from "@images/logo/logo.png";
 const Burger = () => {
   const [open, isOpen] = useState(false);
 
@@ -26,7 +27,7 @@ const Burger = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
               <img
-                src="/src/assets/logo/logo.png"
+                src={logo}
                 alt="logo"
                 className="min-[1100px]:pe-6 max-[500px]:w-[161px]"
               />

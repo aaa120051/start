@@ -1,10 +1,17 @@
 import Card from "./ui/Card";
 
+import IndiaImg from "@images/bestCard/Треугольник.png";
+import RussiaImg from "@images/bestCard/Rixos.png";
+import UnitedKingdomImg from "@images/bestCard/Брайтон.png";
+import KaliningradImg from "@images/bestCard/Калининград.png";
+import VietnamImg from "@images/bestCard/Вьетнам.png";
+import star from "@icons/cards/star.svg";
+
 const CardLine = () => {
   const cards = [
     {
       id: 1,
-      img: "/src/assets/bestCard/Треугольник.png",
+      img: IndiaImg,
       city: "Индия",
       name: (
         <>
@@ -19,7 +26,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "/src/assets/bestCard/Rixos.png",
+      img: RussiaImg,
       city: "Россия",
       name: (
         <>
@@ -33,7 +40,7 @@ const CardLine = () => {
             {[1, 2, 3, 4, 5].map((key) => (
               <img
                 key={key}
-                src="\icons\cards\star.svg"
+                src= {star}
                 alt="star"
                 className="h-[13px]"
               />
@@ -46,7 +53,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "/src/assets/bestCard/Брайтон.png",
+      img: UnitedKingdomImg,
       city: "Великобритания",
       name: (
         <>
@@ -59,7 +66,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "/src/assets/bestCard/Калининград.png",
+      img: KaliningradImg,
       city: "Каллинингад",
       name: (
         <>
@@ -72,7 +79,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "/src/assets/bestCard/Вьетнам.png",
+      img: VietnamImg,
       city: "Вьетнам",
       name: "Большой Индокитайский Вояж: Вьетнам + Лаос + Ка...",
       additionally: "Экскурсионный тур",

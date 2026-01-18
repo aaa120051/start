@@ -1,10 +1,16 @@
 import Card from "./ui/Card";
 
+import BrightonBusinessCoursesOne from "@images/education/Брайтон (1).png";
+import EnglishInCyprusLimassol from "@images/education/English in Cyprus Limassol.png";
+import DiscoverySummerCollingham from "@images/education/Discovery Summer Коллингем.png";
+import SprachcaffeBeijing from "@images/education/Sprachcaffe Пекин.png";
+import BrightonBusinessCoursesTwo from "@images/education/Брайтон (2).png";
+
 const CardLine = () => {
   const courses = [
     {
       id: 1,
-      img: "\\src\\assets\\education\\Брайтон (1).png",
+      img: BrightonBusinessCoursesOne,
       city: "Великобритания",
       name: "Брайтон (Business Courses)",
       language: "Английский",
@@ -15,7 +21,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "\\src\\assets\\education\\English in Cyprus Limassol.png",
+      img: EnglishInCyprusLimassol,
       city: "Кипр",
       name: "English in Cyprus Limassol",
       language: "Английский",
@@ -26,7 +32,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "\\src\\assets\\education\\Discovery Summer Коллингем.png",
+      img: DiscoverySummerCollingham,
       city: "Великобритания",
       name: "Discovery Summer Коллингем",
       language: "Английский",
@@ -37,7 +43,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "\\src\\assets\\education\\Sprachcaffe Пекин.png",
+      img: SprachcaffeBeijing,
       city: "Китай",
       name: "Sprachcaffe Пекин",
       language: "Английский",
@@ -48,7 +54,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "\\src\\assets\\education\\Брайтон (2).png",
+      img: BrightonBusinessCoursesTwo,
       city: "Великобритания",
       name: "Брайтон (Business Courses)",
       language: "Английский",

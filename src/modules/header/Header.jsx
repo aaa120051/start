@@ -4,6 +4,9 @@ import Feedback from "./components/Feedback";
 import NavBar from "./components/NavBar";
 import UserProfile from "./components/UserProfile";
 
+import logo from "@images/logo/logo.png";
+import human from "@icons/header/human.svg";
+
 const Header = () => {
   return (
     <div className="px-4 pt-4 min-[1100px]:px-0">
@@ -11,7 +14,7 @@ const Header = () => {
         <a href="/">
           <div className="flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
             <img
-              src="/src/assets/logo/logo.png"
+              src= {logo}
               alt="logo"
               className="min-[1100px]:pe-6 max-[500px]:w-[161px]"
             />
@@ -34,7 +37,7 @@ const Header = () => {
         <div className="flex items-center  min-[1100px]:hidden">
           <div className="w-12 h-12 flex items-center justify-center me-2 bg-(--color-gray-1) rounded-lg sm:w-[162px] gap-2">
             <img
-              src="\icons\header\human.svg"
+              src={human}
               alt="person account"
               className="h-4"
             />

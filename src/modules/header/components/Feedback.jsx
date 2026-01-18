@@ -1,3 +1,7 @@
+import telegram from "@icons/social media/tg.svg";
+import vkontakte from "@icons/social media/vk.svg";
+import whatsapp from "@icons/social media/wa.svg";
+
 const Feedback = () => {
   return (
     <div>
@@ -16,13 +20,13 @@ const Feedback = () => {
         </div>
         <div className="flex gap-2 ">
           <a href="#">
-            <img src="\icons\social media\tg.svg" alt="telegram" />
+            <img src={telegram} alt="telegram" />
           </a>
           <a href="#">
-            <img src="\icons\social media\vk.svg" alt="vkontakte" />
+            <img src={vkontakte} alt="vkontakte" />
           </a>
           <a href="#">
-            <img src="\icons\social media\wa.svg" alt="whatsapp" />
+            <img src={whatsapp} alt="whatsapp" />
           </a>
         </div>
       </div>

@@ -1,3 +1,6 @@
+import IncomingBlack from "@icons/svgLine/IncomingBlack.png";
+import IncomingRed from "@icons/svgLine/IncomingRed.png";
+
 const SvgLine = () => {
   return (
     <div className="mt-6 h-[100px] md:h-[120px] flex gap-4 overflow-x-auto scrollbar-hide *:shrink-0 *:w-[113.5px] *:pt-4 ps-4 xl:ps-0">
@@ -240,10 +243,10 @@ const SvgLine = () => {
           <picture>
             <source
               media="(min-width: 768px)"
-              srcSet="/icons/svgLine/IncomingRed.png"
+              srcSet={IncomingRed}
             />
             <img
-              src="/icons/svgLine/IncomingBlack.png"
+              src={IncomingBlack}
               alt="Incoming"
               className="w-8 h-8 md:w-12 md:h-12 mx-auto"
             />

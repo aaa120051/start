@@ -16,8 +16,8 @@ import Footer from "@/modules/footer/Footer";
 const HomePage = () => {
   return (
     <div className="max-w-7xl m-auto">
-      <Header />   {/* Это комментарий в JSX */}
-      <Search />   {/* Это комментарий в JSX */}
+      <Header />
+      <Search />
       <CarouselMain />
       <SvgLine />
       <BestCard />

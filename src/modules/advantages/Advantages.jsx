@@ -1,5 +1,10 @@
 import React from "react";
 
+import inTourism from "@images/advantages/inTourism.png";
+import clients from "@images/advantages/clients.png";
+import travelAgencies from "@images/advantages/travelAgencies.png";
+import directions from "@images/advantages/directions.png";
+
 const Advantages = () => {
   return (
     <div className="px-4 xl:px-0">
@@ -11,7 +16,7 @@ const Advantages = () => {
           </p>
           <p className="ps-4 xl:ps-12">в туризме</p>
           <img
-            src="/src/assets/advantages/inTourism.png"
+            src= {inTourism}
             alt="туристический чемодан"
             width={272}
             height={295}
@@ -28,7 +33,7 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/src/assets/advantages/clients.png"
+              src= {clients}
               alt="Счастливые клиенты"
               width={155}
               height={170}
@@ -44,8 +49,8 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/src/assets/advantages/travelAgencies.png"
-              alt=""
+              src= {travelAgencies}
+              alt="travelAgencies"
               width={201}
               height={143}
               className="absolute top-0.5 right-[-7px] w-[178px] h-[126px] xl:w-[201px] xl:h-[143px] xl:top-2.5 xl:right-[-35px]"
@@ -60,8 +65,8 @@ const Advantages = () => {
               </p>
             </div>
             <img
-              src="/src/assets/advantages/directions.png"
-              alt=""
+              src= {directions}
+              alt="directions"
               width={133}
               height={89}
               className="absolute top-8 right-[29px] w-[88px] h-[59px] xl:w-[133px] xl:h-[89px]"

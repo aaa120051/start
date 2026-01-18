@@ -1,5 +1,16 @@
 import React from "react";
 
+import tg from "@icons/social media/tg.svg";
+import vk from "@icons/social media/vk.svg";
+import wa from "@icons/social media/wa.svg";
+import mir from "@icons/footer/mir.svg";
+import visa from "@icons/footer/visa.svg";
+import masterCard from "@icons/footer/master card.svg";
+import onlineexp from "@images/partners/onlineexp.png";
+import assistour from "@images/partners/assistour.png";
+import paykeeper from "@images/partners/paykeeper.png";
+import sletat from "@images/partners/sletat.png";
+
 const Footer = () => {
   return (
     <div className="pt-11 pl-4 pb-[52px] lg:pt-20 xl:ps-0 lg:pb-11">
@@ -25,7 +36,7 @@ const Footer = () => {
             <div className="flex gap-3 pt-2">
               <a href="#">
                 <img
-                  src="\icons\social media\tg.svg"
+                  src= {tg}
                   alt="telegram"
                   width={42}
                   height={42}
@@ -33,7 +44,7 @@ const Footer = () => {
               </a>
               <a href="#">
                 <img
-                  src="\icons\social media\vk.svg"
+                  src= {vk}
                   alt="vkontakte"
                   width={42}
                   height={42}
@@ -41,7 +52,7 @@ const Footer = () => {
               </a>
               <a href="#">
                 <img
-                  src="\icons\social media\wa.svg"
+                  src= {wa}
                   alt="whatsapp"
                   width={42}
                   height={42}
@@ -80,13 +91,13 @@ const Footer = () => {
             <p className="text-black">0,17</p>
           </div>
           <div className="flex gap-4 lg:pt-2">
-            <img src="/src/assets/footer/mir.svg" alt="банковская карта mir " />
+            <img src={mir} alt="банковская карта mir " />
             <img
-              src="/src/assets/footer/visa.svg"
+              src={visa}
               alt="банковская карта visa"
             />
             <img
-              src="/src/assets/footer/master card.svg"
+              src={masterCard}
               alt="банковская карта master card"
             />
           </div>
@@ -95,25 +106,25 @@ const Footer = () => {
 
       <div className="pt-6 pb-10 flex gap-16 overflow-x-auto scrollbar-hide border-b border-(--color-gray-5) xl:pt-10 ">
         <img
-          src="/src/assets/partners/onlineexp.png"
+          src={onlineexp}
           alt="onlineexp"
           width={119}
           height={50}
         />
         <img
-          src="/src/assets/partners/assistour.png"
+          src={assistour}
           alt="assistour"
           width={145}
           height={50}
         />
         <img
-          src="/src/assets/partners/paykeeper.png"
+          src={paykeeper}
           alt="paykeeper"
           width={101}
           height={50}
         />
         <img
-          src="/src/assets/partners/sletat.png"
+          src={sletat}
           alt="sletat"
           width={157}
           height={51}

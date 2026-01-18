@@ -1,10 +1,16 @@
 import Card from "./ui/Card";
 
+import Rixos from "@images/hotels/Rixos Krasnaya Polyana Sochi.png";
+import Mayrveda from "@images/hotels/Mayrveda Kislovodsk (1).png";
+import SochiParkHotel from "@images/hotels/Сочи Парк Отель.png";
+import VelvetSeasons from "@images/hotels/Mayrveda Kislovodsk (2).png";
+import MayrvedaKislovodsk from "@images/hotels/Бархатные Сезоны.png";
+
 const CardLine = () => {
   const hotels = [
     {
       id: 1,
-      img: "\\src\\assets\\hotels\\Rixos Krasnaya Polyana Sochi.png",
+      img: Rixos,
       city: "Красная Поляна",
       name: "Rixos Krasnaya Polyana Sochi",
       start: "17 января",
@@ -14,7 +20,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "\\src\\assets\\hotels\\Mayrveda Kislovodsk (1).png",
+      img: Mayrveda,
       city: "Кисловодск",
       name: "Mayrveda Kislovodsk",
       start: "17 января",
@@ -24,7 +30,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "\\src\\assets\\hotels\\Сочи Парк Отель.png",
+      img: SochiParkHotel,
       city: "Сочи",
       name: "Сочи Парк Отель",
       start: "17 января",
@@ -34,7 +40,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "\\src\\assets\\hotels\\Mayrveda Kislovodsk (2).png",
+      img: VelvetSeasons,
       city: "Сочи",
       name: "Бархатные Сезоны ",
       start: "17 января",
@@ -44,7 +50,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "\\src\\assets\\hotels\\Бархатные Сезоны.png",
+      img: MayrvedaKislovodsk,
       city: "Кисловодск",
       name: "Mayrveda Kislovodsk",
       start: "17 января",

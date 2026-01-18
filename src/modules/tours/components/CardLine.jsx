@@ -1,10 +1,15 @@
 import Card from "./ui/Card";
 
+import GoldenTriangle from "@images/tours/Золотой Треугольник.png";
+import IndochinaVoyage from "@images/tours/Большой Индокитайский Вояж.png";
+import Kaliningrad from "@images/tours/Калининград.png";
+import Vietnam from "@images/tours/Калоритный Вьетнам.png";
+
 const CardLine = () => {
   const tours = [
     {
       id: 1,
-      img: "\\src\\assets\\tours\\Золотой Треугольник.png",
+      img: GoldenTriangle,
       city: "Индия",
       name: (
         <>
@@ -18,7 +23,7 @@ const CardLine = () => {
     },
     {
       id: 2,
-      img: "\\src\\assets\\tours\\Большой Индокитайский Вояж.png",
+      img: IndochinaVoyage,
       city: "Индия",
       name: "Большой Индокитайский Вояж: Вьетнам + Лаос + Ка...",
       duration: "8 дней, 7 ночей",
@@ -26,7 +31,7 @@ const CardLine = () => {
     },
     {
       id: 3,
-      img: "\\src\\assets\\tours\\Калининград.png",
+      img: Kaliningrad,
       city: "Каллинингад",
       name: (
         <>
@@ -40,7 +45,7 @@ const CardLine = () => {
     },
     {
       id: 4,
-      img: "\\src\\assets\\tours\\Калоритный Вьетнам.png",
+      img: Vietnam,
       city: "Вьетнам",
       name: "Колоритный Центральный и Южный Вьетнам",
       duration: "8 дней, 7 ночей",
@@ -48,7 +53,7 @@ const CardLine = () => {
     },
     {
       id: 5,
-      img: "\\src\\assets\\tours\\Большой Индокитайский Вояж.png",
+      img: IndochinaVoyage,
       city: "Индия",
       name: "Большой Индокитайский Вояж: Вьетнам + Лаос + Ка...",
       duration: "8 дней, 7 ночей",
