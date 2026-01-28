@@ -8,7 +8,7 @@ const Button = ({ isActive, onClick, children }) => {
           isActive
             ? "bg-(--color-accent) text-white"
             : "bg-(--color-gray-1) text-black"
-        } p-3 text-[14px] font-normal rounded-lg transition-colors duration-200`}
+        } p-3 text-[14px] font-normal rounded-lg transition-colors duration-200 cursor-pointer`}
       >
         {children}
       </button>

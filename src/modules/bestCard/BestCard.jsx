@@ -14,7 +14,7 @@ const BestCard = () => {
   };
 
   return (
-    <div className="ps-4 pt-11 lg:pt-20 xl:ps-0">
+    <section className="ps-4 pt-11 lg:pt-20 xl:ps-0">
       <div className="flex justify-between items-center">
         <h2 className="text-black">Лучшие предложения</h2>
         <Scroll 
@@ -23,7 +23,7 @@ const BestCard = () => {
         />
       </div>
       <CardLine />
-    </div>
+    </section>
   );
 };
 

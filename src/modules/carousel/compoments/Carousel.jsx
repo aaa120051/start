@@ -42,7 +42,7 @@ const Carousel = ({ slides }) => {
             onClick={() => setCurrentSlide(index)}
           >
             <button
-              className={`w-2 h-2 rounded-full transition-all ${
+              className={`w-2 h-2 rounded-full transition-all cursor-pointer ${
                 currentSlide === index
                   ? "bg-(--color-accent)"
                   : "bg-(--color-gray-3)"

@@ -12,9 +12,9 @@ const CarouselMain = () => {
   ];
 
   return (
-    <div className="px-4 pt-6 xl:px-0">
+    <section className="px-4 pt-6 xl:px-0">
       <Carousel slides={slides} />
-    </div>
+    </section>
   );
 };
 

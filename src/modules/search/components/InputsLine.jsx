@@ -10,7 +10,7 @@ const InputsLine = () => {
         <div className="grow"><Input label="Ночей" baseText="от 5 до 12" addClass="md:border-l md:border-(--color-gray-3)"/></div>
         <div className="grow"><Input label="Туристы" baseText="2 взрослых" addClass="md:rounded-r-lg md:border-l md:border-(--color-gray-3)"/></div>
       </div>
-      <div className="grow"><button className="bg-white text-black rounded-lg h-12 mt-2 w-full md:w-[100px] md:ms-4 md:mt-0 lg:w-[152px]">Найти</button></div>
+      <div className="grow"><button className="bg-white text-black rounded-lg h-12 mt-2 w-full md:w-[100px] cursor-pointer md:ms-4 md:mt-0 lg:w-[152px]">Найти</button></div>
 
     </div>
 

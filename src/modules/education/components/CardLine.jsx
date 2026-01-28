@@ -67,7 +67,7 @@ const CardLine = () => {
 
   return (
     <div className="pt-4 pb-6 lg:pb-8 lg:pt-6">
-      <div className="education-cards flex gap-6 overflow-x-auto scrollbar-hide">
+      <ul className="education-cards flex gap-6 overflow-x-auto scrollbar-hide">
         {courses.map((course) => (
           <Card
             key={course.id}
@@ -81,7 +81,7 @@ const CardLine = () => {
             institution={course.institution}
           />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

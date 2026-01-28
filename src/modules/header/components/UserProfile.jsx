@@ -4,7 +4,7 @@ const UserProfile = () => {
   return (
     <>
       <a href="#">
-        <div className="flex items-center justify-center gap-2 bg-(--color-gray-1) rounded-lg h-8 w-[162px] ">
+        <div className="flex items-center justify-center gap-2 bg-(--color-gray-1) rounded-lg h-8 w-[162px] hover:bg-gray-200 transition-all">
           <img
             src={human}
             alt="person account"

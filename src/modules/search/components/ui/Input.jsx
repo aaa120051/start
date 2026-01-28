@@ -23,7 +23,7 @@ const Input = ({ label, baseText, addClass = "" }) => {
         value={value}
         onChange={({ target }) => setValue(target.value)}
         placeholder={isEmpty ? label : ""}
-        className={`w-full h-full outline-none bg-transparent transition-all ${
+        className={`w-full h-full outline-none bg-transparent transition-all cursor-pointer ${
           isEmpty
             ? "text-[16px] font-normal text-black"
             : "text-[16px] font-semibold pt-4 text-black"

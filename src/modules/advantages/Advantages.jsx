@@ -7,7 +7,7 @@ import directions from "@images/advantages/directions.png";
 
 const Advantages = () => {
   return (
-    <div className="px-4 xl:px-0">
+    <section className="px-4 xl:px-0">
       <h2 className="text-black pt-11 xl:pt-20">Наши преимущества</h2>
       <div className="pt-4 xl:pt-6 flex flex-col gap-4 text-black xl:flex-row">
         <div className="min-w-[343px] h-[328px] rounded-2xl bg-(--color-accent) text-white overflow-hidden relative shrink-0 xl:w-[636px]">
@@ -74,7 +74,7 @@ const Advantages = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -17,20 +17,22 @@ const HomePage = () => {
   return (
     <div className="max-w-7xl m-auto">
       <Header />
-      <Search />
-      <CarouselMain />
-      <SvgLine />
-      <BestCard />
-      <ImageSeparator />
-      <Hotels />
-      <Tours />
-      <Education />
-      <ImageSeparator />
-      <Advantages />
-      <News />
-      <Partners />
-      <ImageSeparator />
-      <InstallmentPlan />
+      <main>
+        <Search />
+        <CarouselMain />
+        <SvgLine />
+        <BestCard />
+        <ImageSeparator />
+        <Hotels />
+        <Tours />
+        <Education />
+        <ImageSeparator />
+        <Advantages />
+        <News />
+        <Partners />
+        <ImageSeparator />
+        <InstallmentPlan />
+      </main>
       <Footer />
     </div>
   );

@@ -12,7 +12,7 @@ import BSIGlobal from "@images/partners/BSIGlobal.png";
 
 const Partners = () => {
   return (
-    <div className="ps-4 pt-11 lg:pt-20 xl:ps-0 text-black">
+    <section className="ps-4 pt-11 lg:pt-20 xl:ps-0 text-black">
       <h2 className="pb-6 lg:pb-[42px]">Партнеры</h2>
       <div className="flex h-[70px] gap-12 items-center overflow-x-auto scrollbar-hide">
         <img
@@ -86,7 +86,7 @@ const Partners = () => {
           className="w-[126px] h-[34px] lg:w-[167px] lg:h-[45px]"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

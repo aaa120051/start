@@ -61,8 +61,8 @@ const CardLine = () => {
   ];
 
   return (
-    <div className="pt-4 lg:pt-6">
-      <div className="hotels-cards flex gap-6 overflow-x-auto scrollbar-hide">
+    <section className="pt-4 lg:pt-6">
+      <ul className="hotels-cards flex gap-6 overflow-x-auto scrollbar-hide">
         {hotels.map((hotel) => (
           <Card
             key={hotel.id}
@@ -74,8 +74,8 @@ const CardLine = () => {
             price={hotel.price}
           />
         ))}
-      </div>
-    </div>
+      </ul>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import whatsapp from "@icons/social media/wa.svg";
 const Feedback = () => {
   return (
     <div>
-      <div className="flex gap-4 max-[1100px]:flex-col max-[1100px]:gap-6">
+      <div className="flex gap-4 max-[1100px]:flex-col max-[1100px]:gap-6 ">
         <a
           href="tel:84957855535"
           className="text-(--color-accent) text-[14px] font-normal h-[21px] max-[1100px]:text-[18px]"
@@ -18,17 +18,18 @@ const Feedback = () => {
           </a>
           <p className="text-[10px] font-normal text-(--color-gray-5) max-[1100px]:text-[12px]">бесплатно из регионов</p>
         </div>
-        <div className="flex gap-2 ">
-          <a href="#">
-            <img src={telegram} alt="telegram" />
+        <div className={`flex items-center gap-2`}>
+          <a href="#" className="w-8 h-8 flex items-center justify-center hover:bg-gray-200 transition-all rounded-2xl bg-(--color-gray-1)">
+            <img src={telegram} alt="telegram"/>
           </a>
-          <a href="#">
-            <img src={vkontakte} alt="vkontakte" />
+          <a href="#" className="w-8 h-8 flex items-center justify-center hover:bg-gray-200 transition-all rounded-2xl bg-(--color-gray-1)">
+            <img src={vkontakte} alt="vkontakte"/>
           </a>
-          <a href="#">
-            <img src={whatsapp} alt="whatsapp" />
+          <a href="#" className="w-8 h-8 flex items-center justify-center hover:bg-gray-200 transition-all rounded-2xl bg-(--color-gray-1)">
+            <img src={whatsapp} alt="whatsapp"/>
           </a>
         </div>
+
       </div>
     </div>
   );

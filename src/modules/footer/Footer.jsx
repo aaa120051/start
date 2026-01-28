@@ -13,7 +13,7 @@ import sletat from "@images/partners/sletat.png";
 
 const Footer = () => {
   return (
-    <div className="pt-11 pl-4 pb-[52px] lg:pt-20 xl:ps-0 lg:pb-11">
+    <footer className="pt-11 pl-4 pb-[52px] lg:pt-20 xl:ps-0 lg:pb-11">
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="max-w-[519px] flex flex-col gap-5 order-3 lg:order-1">
           <div>
@@ -32,31 +32,16 @@ const Footer = () => {
             </h4>
           </div>
           <div>
-            <p className="text-lg font-normal">Мы в соцсетях</p>
-            <div className="flex gap-3 pt-2">
-              <a href="#">
-                <img
-                  src= {tg}
-                  alt="telegram"
-                  width={42}
-                  height={42}
-                />
+            <p className="text-lg font-normal pb-2">Мы в соцсетях</p>
+            <div className={`flex items-center gap-2`}>
+              <a href="#" className="w-[42px] h-[42px] flex items-center justify-center hover:bg-gray-200 transition-all rounded-3xl bg-(--color-gray-1)">
+                <img src={tg} alt="telegram" width={22} height={19}/>
               </a>
-              <a href="#">
-                <img
-                  src= {vk}
-                  alt="vkontakte"
-                  width={42}
-                  height={42}
-                />
+              <a href="#" className="w-[42px] h-[42px] flex items-center justify-center hover:bg-gray-200 transition-all rounded-3xl bg-(--color-gray-1)">
+                <img src={vk} alt="vkontakte" width={24} height={15}/>
               </a>
-              <a href="#">
-                <img
-                  src= {wa}
-                  alt="whatsapp"
-                  width={42}
-                  height={42}
-                />
+              <a href="#" className="w-[42px] h-[42px] flex items-center justify-center hover:bg-gray-200 transition-all rounded-3xl bg-(--color-gray-1)">
+                <img src={wa} alt="whatsapp" width={22} height={22}/>
               </a>
             </div>
           </div>
@@ -137,7 +122,7 @@ const Footer = () => {
         </span>
         <span>BSI GROUP © 1990—2025 Все права защищены.</span>
       </div>
-    </div>
+    </footer>
   );
 };
 

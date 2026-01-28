@@ -36,7 +36,7 @@ const CardLine = () => {
 
   return (
     <div className="pt-4 pb-8 lg:pt-6">
-      <div className="news-cards flex gap-6 overflow-x-auto scrollbar-hide">
+      <ul className="news-cards flex gap-6 overflow-x-auto scrollbar-hide">
         {news.map((post) => (
           <Card
             key={post.id}
@@ -45,7 +45,7 @@ const CardLine = () => {
             date={post.date}
           />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

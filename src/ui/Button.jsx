@@ -3,7 +3,7 @@ const Button = ({ children, AddClass }) => {
     <a href="#">
       <button
         type="button"
-        className={`text-white w-full bg-(--color-accent) py-3 rounded-lg ${AddClass}`}
+        className={`text-white w-[calc(100%-16px)] bg-(--color-accent) py-3 rounded-lg cursor-pointer ${AddClass}`}
       >
         {children}
       </button>

@@ -9,7 +9,7 @@ import human from "@icons/header/human.svg";
 
 const Header = () => {
   return (
-    <div className="px-4 pt-4 min-[1100px]:px-0">
+    <header className="px-4 pt-4 min-[1100px]:px-0">
       <div className="flex justify-between">
         <a href="/">
           <div className="flex items-center min-[1100px]:border-r border-(--color-gray-5) min-[1100px]:h-[100px]">
@@ -49,7 +49,7 @@ const Header = () => {
           <Burger />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

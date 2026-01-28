@@ -15,7 +15,7 @@ const Education = () => {
   };
 
   return (
-    <div className="ps-4 pt-11 lg:pt-20 xl:ps-0">
+    <section className="ps-4 pt-11 lg:pt-20 xl:ps-0">
       <div className="flex justify-between items-center">
         <h2 className="text-black">Образование за рубежом</h2>
         <Scroll 
@@ -25,7 +25,7 @@ const Education = () => {
       </div>
       <CardLine />
       <Button AddClass={`md:max-w-[131px]`}>Все курсы</Button>
-    </div>
+    </section>
   );
 };
 

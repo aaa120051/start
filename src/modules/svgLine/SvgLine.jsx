@@ -3,7 +3,7 @@ import IncomingRed from "@icons/svgLine/IncomingRed.png";
 
 const SvgLine = () => {
   return (
-    <div className="mt-6 h-[100px] md:h-[120px] flex gap-4 overflow-x-auto scrollbar-hide *:shrink-0 *:w-[113.5px] *:pt-4 ps-4 xl:ps-0">
+    <section className="mt-6 h-[100px] md:h-[120px] flex gap-4 overflow-x-auto scrollbar-hide *:shrink-0 *:w-[113.5px] *:pt-4 ps-4 xl:ps-0">
       <a href="#">
         <div>
           <svg
@@ -255,7 +255,7 @@ const SvgLine = () => {
           <p className="text-black text-center pt-2">Incoming</p>
         </div>
       </a>
-    </div>
+    </section>
   );
 };
 
